@@ -14,8 +14,9 @@ import scala.util
 
 object main {
 
-  var DevAmount: Int = 0 //без этого 0 DevAmount объявляется abstract, если что.
+  var DevAmount: Int = 0 //без инициализации DevAmount объявляется abstract, если что. ХЗ почему
   def sql = new sql() //линки
+  def devices = new devices() //Класс с обработчиком I2c устройств
 
   def main(args: Array[String]) : Unit = {
 
@@ -35,10 +36,9 @@ object main {
 
       println("usage: module_platform_scala.jar CFGROUTE=%your_route% N 0xNN  (N is amount of i2c sensors, 0xNN is needed registry address)  " )
        println( "(example: CFGROUTE=/home/$USER/module_config.cfg) ")
-      println()
-      println("Terminated: provide config. Sample cfg was with program.")
-      System.exit(101)  //остановить прогу если ей не дали путь к конфигу
-
+      println(" ")
+      println(args{0}+" may not be a correct linux path - and probably is not!")
+      println(" ")
     } else {  //так, мишура кончилась
 
       sql.route = args{0}; // запись места где лежит cfg

@@ -9,12 +9,6 @@
     </properties>
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar!/" />
-      <root url="jar://$USER_HOME$/Dropbox/IdeaProjects/pi4j-1.0/lib/junit.jar!/" />
-      <root url="jar://$USER_HOME$/Dropbox/IdeaProjects/pi4j-1.0/lib/pi4j-core.jar!/" />
-      <root url="jar://$USER_HOME$/Dropbox/IdeaProjects/pi4j-1.0/lib/pi4j-device.jar!/" />
-      <root url="jar://$USER_HOME$/Dropbox/IdeaProjects/pi4j-1.0/lib/pi4j-example.jar!/" />
-      <root url="jar://$USER_HOME$/Dropbox/IdeaProjects/pi4j-1.0/lib/pi4j-gpio-extension.jar!/" />
-      <root url="jar://$USER_HOME$/Dropbox/IdeaProjects/pi4j-1.0/lib/pi4j-service.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

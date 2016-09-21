@@ -19,7 +19,7 @@ import com.sun.org.glassfish.gmbal.Description
 
   abstract class watcher extends devices {
 
-  val rule34 = new Thread(new Runnable {
+  val rule34 = new Thread @Deprecated(new Runnable {
     def run() {
 
 

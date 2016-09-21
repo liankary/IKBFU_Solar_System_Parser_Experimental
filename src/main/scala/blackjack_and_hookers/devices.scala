@@ -17,7 +17,7 @@ import com.pi4j.io.i2c.I2CFactory
 import com.sun.org.glassfish.gmbal.Description
 
 
-abstract class devices {
+class devices {
 
   def Devices: Array[I2CDevice] = new Array[I2CDevice](main.DevAmount)
   def Received_Values: Array[Double] = new Array[Double](main.DevAmount)
